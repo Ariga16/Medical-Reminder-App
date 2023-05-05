@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/NAD_DENIM">
+
+    <EditText
+        android:id="@+id/eventname"
+        android:layout_width="match_parent"
+        android:maxLines="5"
+        android:layout_height="150dp"
+        android:background="@color/colorAccent"
+        android:hint="Type Medicine"
+        android:textColor="@color/grey"
+        android:inputType="textCapSentences"
+        android:layout_margin="20dp"
+        android:gravity="center">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/seteventtime"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_access_time_black_24dp"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"></ImageButton>
+
+        <TextView
+            android:id="@+id/eventtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00AM"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:layout_margin="10dp"></TextView>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notify Me"
+            android:textColor="@color/colorAccent"
+            android:buttonTint="@color/colorAccent"
+            android:layout_weight="1"
+            android:id="@+id/alarmme"></CheckBox>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Medicine"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/colorAccent">
+    </Button>
+</LinearLayout>

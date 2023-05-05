@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692521899009",
+    "project_id": "events-d9dc1",
+    "storage_bucket": "events-d9dc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692521899009:android:d54e31c3b52f7daf229c00",
+        "android_client_info": {
+          "package_name": "com.dacasa.events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692521899009-rvvate8p3dbmsse2ao602qlmr5h62p15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-E5OBaDHPpU7w_kTX8EsNpCIA1aK4KDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692521899009-rvvate8p3dbmsse2ao602qlmr5h62p15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
